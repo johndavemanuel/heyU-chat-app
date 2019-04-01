@@ -1,0 +1,74 @@
+/* Custom color theme */
+:root {
+  --f7-theme-color: #cc0033;
+  --f7-theme-color-rgb: 204, 0, 51;
+  --f7-theme-color-shade: #a30000;
+  --f7-theme-color-tint: #f50000;
+  --f7-list-margin-vertical: 0;
+  --f7-list-item-text-max-lines:1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* CSS */
+.homepage {
+  background-image: linear-gradient(#cc0033, #ff3333);
+  color: white;
+}
+
+.home-app-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.home__title,
+.home__subtitle {
+  margin: 0;
+}
+
+.home__title {
+  font-size: 40px;
+}
+
+.home-app-login {
+  height: 70vh;
+}
+
+.home-app-login .list ul {
+  background: transparent
+}
+
+.home-app-login .list ul input {
+  text-align: center;
+  color:white;
+  background-color: #993333;
+  border-radius: 40px
+}
+
+.sign-in-link {
+  text-align: center;
+}
+
+.sign-in-link a {
+  color:white;
+}
+
+
+/* MESSAGES */
+.user-avatar {
+  border-radius: 50%;
+}
+
+.navbar~:not(.page) .page-content {
+  padding:0px;
+}
+/* UTILITY */
+
+.u-text-center {
+  text-align: center
+}
