@@ -6,6 +6,9 @@
   --f7-theme-color-tint: #f50000;
   --f7-list-margin-vertical: 0;
   --f7-list-item-text-max-lines:1;
+  --f7-fab-bg-color:#cc0033;
+  --f7-card-content-padding-horizontal: 40px;
+  --f7-navbar-title-text-align: center;
 }
 
 body {
@@ -67,6 +70,24 @@ body {
 .navbar~:not(.page) .page-content {
   padding:0px;
 }
+
+/* GROUP */
+.group-card {
+  text-align: center;
+}
+
+.group-name {
+  margin:0;
+}
+
+.group-last-update {
+  text-align: right;
+}
+
+.group-member-coun {
+  text-align: left
+}
+
 /* UTILITY */
 
 .u-text-center {
