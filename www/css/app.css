@@ -5,14 +5,81 @@
   --f7-theme-color-shade: #a30000;
   --f7-theme-color-tint: #f50000;
   --f7-list-margin-vertical: 0;
-  --f7-list-item-text-max-lines:1;
-  --f7-fab-bg-color:#cc0033;
+  --f7-list-item-text-max-lines: 1;
+  --f7-fab-bg-color: #cc0033;
   --f7-card-content-padding-horizontal: 40px;
+  --f7-card-content-padding-vertical: 30px;
   --f7-navbar-title-text-align: center;
+  --f7-messagebar-link-color: white;
+  --f7-navbar-bg-color: white;
+  --f7-toolbar-bg-color: white;
+  --f7-list-item-divider-height:30px;
+  --f7-card-margin-vertical: 25px;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
+/* FRAMEWORK 7 */
+.navbar {
+  border-bottom: 1px solid #80808024;
+}
+
+.navbar .title {
+  width: 100%;
+}
+
+.navbar:before,
+.toolbar-bottom:after {
+  background-image: none;
+}
+
+.toolbar-bottom {
+  border-top: 1px solid #80808024;
+}
+
+.tab-link-highlight {
+  display: none;
+}
+
+.message-sent .message-bubble,
+.messagebar .send-link {
+  background-image: linear-gradient(#cc0033, #ff3333);
+}
+
+.swipeout .item-media,
+.contact-wrapper .item-media {
+  position: relative
+}
+
+#messages-wrapper .swipeout .item-title-row {
+  padding-right: 0;
+}
+
+
+#messages-wrapper .swipeout .item-title-row:before {
+  content:"";
+}
+
+/* UTILITY */
+
+.u-text-center {
+  text-align: center
+}
+
+.user-online-badge {
+  height: 10px;
+  background-color: var(--f7-theme-color);
+  width: 10px;
+  position: absolute;
+  right: 2px;
+  border-radius: 50%;
+  border: 2px solid white;
+  bottom: 9px;
+}
+
+.toolbar .toolbar-inner .add-message {
+  background-image: linear-gradient(#cc0033, #ff3333);
+  color: white;
+  /* border-radius: 50%;
+  height: 100px; */
 }
 
 /* CSS */
@@ -48,7 +115,7 @@ body {
 
 .home-app-login .list ul input {
   text-align: center;
-  color:white;
+  color: white;
   background-color: #993333;
   border-radius: 40px
 }
@@ -58,7 +125,7 @@ body {
 }
 
 .sign-in-link a {
-  color:white;
+  color: white;
 }
 
 
@@ -68,7 +135,7 @@ body {
 }
 
 .navbar~:not(.page) .page-content {
-  padding:0px;
+  padding: 0px;
 }
 
 /* GROUP */
@@ -76,20 +143,61 @@ body {
   text-align: center;
 }
 
+.group-more-vert {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color:#bfbaba
+}
 .group-name {
-  margin:0;
+  margin: 0;
 }
 
 .group-last-update {
   text-align: right;
 }
 
-.group-member-coun {
+.group-member-count {
   text-align: left
 }
 
-/* UTILITY */
+.group-member-avatars {
+  margin-top:10px;
+}
 
-.u-text-center {
-  text-align: center
+/* CONTACT */
+.contact-wrapper .item-after .material-icons {
+  color:#bfbaba
+}
+
+.contact-wrapper .item-after .material-icons:last-child {
+  margin-left: 10px;
+}
+
+.contact-online-count {
+  color: var(--f7-theme-color);
+}
+
+/* PROFILE */
+.profile-card-avatar {
+  margin: 0 auto;
+  display: block;
+}
+
+.profile-card {
+  background-image: linear-gradient(#cc0033, #ff3333);
+  color:white;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+}
+
+.navbar-profile {
+  background-color: #cc0033;
+  color:white;
+  border: none;
+}
+
+.navbar-profile .navbar-inner a {
+  color:white
 }

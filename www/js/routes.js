@@ -15,6 +15,14 @@ routes = [
     path: '/groups/',
     url: './pages/groups.html',
   },
+  {
+    path: '/contact/',
+    url: './pages/contact.html',
+  },
+  {
+    path: '/profile/',
+    url: './pages/profile.html',
+  },
   // Default route (404 page). MUST BE THE LAST
   {
     path: '(.*)',
