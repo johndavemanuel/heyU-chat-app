@@ -1,10 +1,10 @@
 {
-  "name": "framework7-template-single-view",
+  "name": "heyU",
   "version": "1.0.0",
-  "description": "Framework7 single view app template",
+  "description": "free chat app template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/framework7io/framework7-template-single-view.git"
+    "url": "git+https://github.com/johndavemanuel/heyU.git"
   },
   "scripts": {
     "serve": "http-server ./www/ -o -c 1 -a localhost",
@@ -14,20 +14,20 @@
   },
   "keywords": [
     "framework7",
-    "template",
-    "ios",
+    "chat",
+    "messaging",
     "android",
     "mobile",
     "app",
     "cordova",
     "phonegap"
   ],
-  "author": "Vladimir Kharlampidi",
+  "author": "John Dave Manuel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/framework7io/framework7-template-single-view/issues"
+    "url": "https://github.com/johndavemanuel/heyU/issues"
   },
-  "homepage": "https://github.com/framework7io/framework7-template-single-view#readme",
+  "homepage": "https://github.com/johndavemanuel/heyU#readme",
   "devDependencies": {
     "cpy-cli": "^1.0.1",
     "framework7": "^4.0.0",

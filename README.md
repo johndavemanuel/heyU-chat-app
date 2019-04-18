@@ -1,15 +1,16 @@
-# Framework7 Single View Starter App Template
+# HeyU - free chat app template
+A simple framework7 template for chat app based on `https://symu.co/freebies/mobile-apps/heyu-mobile-app-psd`
 
-A simple single view Framework7 starter app template.
+<img src="heyU.jpeg">
 
 ## Usage
 
 ### 1. Download this repository
 ```
-git clone https://github.com/framework7io/framework7-template-single-view my-app
+git clone https://github.com/johndavemanuel/heyU heyU
 ```
 
-Repository will be downloaded into `my-app/` folder
+Repository will be downloaded into `heyU/` folder
 
 ### 2. Instal dependencies
 
@@ -31,16 +32,3 @@ App will be opened in browser at `http://localhost:8080/`
 ## Use with cordova
 
 Just put the contents of `www` folder in your cordova's project root `www` folder
-
-## One command install
-
-```
-git clone https://github.com/framework7io/framework7-template-single-view my-app &&
-cd my-app &&
-npm install &&
-npm run serve
-```
-
-## Live Preview
-
-https://framework7io.github.io/framework7-template-single-view/
