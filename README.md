@@ -1,6 +1,6 @@
 # HeyU - free chat app template
 A simple framework7 template for chat app based on `https://symu.co/freebies/mobile-apps/heyu-mobile-app-psd`
-
+NOTE: I am not the one who created the UI/UX, I just converted it to a working front-end code.
 <img src="heyU.jpeg">
 
 ## Usage
