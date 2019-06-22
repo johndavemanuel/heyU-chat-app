@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.davemanuel.heyu" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
+<widget id="io.heyu.chat" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
     xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>HeyU</name>
     <description>
@@ -33,7 +33,4 @@
         <icon src="res/icon/android/xxhdpi.png" density="xxhdpi" />
         <icon src="res/icon/android/xxxhdpi.png" density="xxxhdpi" />
     </platform>
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#93000e" />
-    <preference name="StatusBarStyle" value="lightcontent" />
 </widget>

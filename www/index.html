@@ -88,10 +88,10 @@
               </ul>
             </div>
             <div class="block">
-                <div class="row">
-                    <a href="/home/" class="col button button-fill button-round color-white text-color-red">Sign Up</a>
-                </div>
-                <p class="sign-in-link"><a href="/signin/">Already have an account? Sign In</a></p>
+              <div class="row">
+                <a href="/home/" class="col button button-fill button-round color-white text-color-red">Sign Up</a>
+              </div>
+              <p class="sign-in-link"><a href="/signin/">Already have an account? Sign In</a></p>
             </div>
           </div>
         </div>
@@ -103,6 +103,16 @@
   <script src="framework7/js/framework7.bundle.min.js"></script>
   <script src="js/routes.js"></script>
   <script src="js/app.js"></script>
+  <script type="text/javascript">
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+      StatusBar.overlaysWebView(false);
+      StatusBar.backgroundColorByHexString("#93000e");
+      StatusBar.styleLightContent();
+    }
+
+  </script>
 </body>
 
 </html>
