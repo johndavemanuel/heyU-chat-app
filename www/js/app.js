@@ -79,7 +79,7 @@ $$(document).on('page:init', '.page[data-name="messages"]', function (e) {
     // Add message to messages
     messages.addMessage({
       text: text,
-      avatar: '../img/890.jpg'
+      avatar: 'img/890.jpg'
     });
 
     if (responseInProgress) return;
@@ -104,31 +104,31 @@ $$(document).on('page:init', '.page[data-name="messages"]', function (e) {
   ]
   var people = [{
       name: 'Oswald Cobblepot',
-      avatar: '../img/00.jpg'
+      avatar: 'img/00.jpg'
     },
     {
       name: 'Fish Mooney',
-      avatar: '../img/00.jpg'
+      avatar: 'img/00.jpg'
     },
     {
       name: 'Barbara Kean',
-      avatar: '../img/2.jpg'
+      avatar: 'img/2.jpg'
     },
     {
       name: 'Edward Nygma',
-      avatar: '../img/230.jpg'
+      avatar: 'img/230.jpg'
     },
     {
       name: 'Selina Kyle',
-      avatar: '../img/11.jpg'
+      avatar: 'img/11.jpg'
     },
     {
       name: 'Harvey Bullock',
-      avatar: '../img/940.jpg'
+      avatar: 'img/940.jpg'
     },
     {
       name: 'Jim Gordon',
-      avatar: '../img/910.jpg'
+      avatar: 'img/910.jpg'
     }
   ];
 
