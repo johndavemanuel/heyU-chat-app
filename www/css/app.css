@@ -66,6 +66,10 @@
   visibility: hidden;
 }
 
+.mdi {
+  font-size: 24px;
+}
+
 /* CUSTOM */
 .user-online-badge {
   height: 10px;
@@ -90,6 +94,7 @@
 .homepage {
   background-image: linear-gradient(#cc0033, #ff3333);
   color: white;
+  overflow: hidden;
 }
 
 .home-app-title {
@@ -188,7 +193,7 @@
   color: #bfbaba
 }
 
-.contact-wrapper .item-after .material-icons:last-child {
+.contact-wrapper .item-after .mdi:last-child {
   margin-left: 10px;
 }
 
