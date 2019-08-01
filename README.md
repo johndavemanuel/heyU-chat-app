@@ -11,7 +11,7 @@ git clone https://github.com/johndavemanuel/heyU heyU
 
 Repository will be downloaded into `heyU/` folder
 
-### 2. Instal dependencies
+### 2. Install dependencies
 
 Go to the downloaded repository folder and run:
 ```
